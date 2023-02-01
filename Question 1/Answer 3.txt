@@ -1,0 +1,7 @@
+Answer-3)
+
+We will make use of Httpstatus code to check the security and reliability of api.
+
+if Http status code is in range of 200-300 then it is successful.
+
+if it is like range of 400 then it is a bad request.

@@ -1,0 +1,21 @@
+1. How will you tackle the challenge above?
+Ans)
+To tackle the challenge, I would parse the input CSV file, identify the cells with formulas and evaluate them, and then output the result to a new CSV file. To evaluate the formulas, I would use a library or write custom code that can handle simple arithmetic operations such as addition and subtraction.
+
+2. What type of errors you would you check for?
+Ans)
+While evaluating the formulas, I would check for the following types of errors:
+------------------------------------------------------------------------------
+1.Syntax errors: Ensure that the formula has the correct syntax, for example, the correct number of operators and operands.
+
+2.Division by zero: Avoid dividing by zero, which would result in an error.
+
+3.Circular references: Ensure that the formula does not contain circular references, which would cause the evaluation to run indefinitely.
+
+4.Reference errors: Check if the cells referenced in the formula exist and if they contain valid values.
+
+5.Type mismatches: Ensure that the operands in the formula are of the correct type, for example, that they are numbers and not text.
+
+3. How might a user break your code?
+Ans)
+A user could break the code by inputting a CSV file that does not adhere to the expected format, for example, using an invalid character as a separator, or by including formulas that have invalid syntax, circular references, or non-existent cell references.
