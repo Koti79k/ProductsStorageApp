@@ -1,10 +1,10 @@
-package Prospecta;
+package Products;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProspectaApplicationTests {
+class ProductsStoreAppApplicationTests {
 
 	@Test
 	void contextLoads() {
